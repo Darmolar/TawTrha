@@ -14,15 +14,23 @@
     },
     "updates": {
       "fallbackToCacheTimeout": 0
-    },
+    }, 
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "com.TawTrha.TawTrha",
+      "versionCode": 1
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.TawTrha.TawTrha",
+      "buildNumber": "1.0.0"
     },
     "web": {
-      "favicon": "./assets/images/favicon.png"
-    }
+      "favicon": "./assets/images/logo.png"
+    },
+    "description": "Implementing the Safe Way forward guidelines to film and tv production post. Zoning system and Official Government guidelines",
+    "entryPoint": "node_modules/expo/AppEntry.js"
   }
 }
